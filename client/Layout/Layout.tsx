@@ -54,11 +54,8 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                                             </Flex>
                                         </Menu.Target>
                                         <Menu.Dropdown>
-                                            <Menu.Item component="a" icon={<Logout size={14} />} onClick={() => logout.mutate()}>
-                                                Logout
-                                            </Menu.Item>
-                                            <Menu.Item icon={<Settings size={14} />}>
-                                                Settings
+                                            <Menu.Item component="a" icon={<Logout size={18} />} onClick={() => logout.mutate()}>
+                                                <Text size='md' mr='xs'>Logout</Text>
                                             </Menu.Item>
                                         </Menu.Dropdown>
                                     </Menu>
