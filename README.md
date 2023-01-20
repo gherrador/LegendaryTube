@@ -84,7 +84,6 @@ Also you can find other complementary folders such as:
 
 + Middleware: This folder contained the bellow folders:
   - User: Middleware that allow upload a video when a user is logged.
-  - Bcrypt: Functions in charge to encrypt and decrypt each client's password.
   - Passport: Middleware used to register and logged each user.
 
 + Interface: Inside this folder we can find all the interfaces used.
