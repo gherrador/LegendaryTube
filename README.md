@@ -1,3 +1,5 @@
+# LegendaryTune - YouTube Clone
+
 ## About the project
 
 Full Stack personal project based on Youtube.

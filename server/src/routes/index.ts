@@ -11,7 +11,7 @@ import { commentsRouter } from "./comments/comments";
 
 export const Routes = Router()
 
-Routes.use(urlencoded({extended:false}))
+Routes.use(urlencoded({extended:true}))
 Routes.use(cookieParser())
 Routes.use(cors({
     credentials: true, origin: 'http://localhost:3000'

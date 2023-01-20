@@ -1,8 +1,11 @@
 import { Router } from 'express'
+import { requireUser } from '../../middleware'
 export const videoRouter  = Router()
 const { videoControllers } = require('../../controllers')
 
-videoRouter.post('/upload', videoControllers.uploadVideo)
+
+
+videoRouter.post('/upload', requireUser,videoControllers.uploadVideo)
 videoRouter.patch('/:videoId',  videoControllers.createElementsOfVideo)
 videoRouter.get('/', videoControllers.findvideos)
 videoRouter.get('/watch/:videoId', videoControllers.streamVideo)
