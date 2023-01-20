@@ -1,4 +1,4 @@
-# LegendaryTune - YouTube Clone
+# LegendaryTube - YouTube Clone
 
 ## About the project
 
