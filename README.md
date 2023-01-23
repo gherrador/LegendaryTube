@@ -277,6 +277,8 @@ Youtube Clone
 
 Here you can see all the videos charged on the page and select one. If you run the mouse pointer over the video, a random preview of the video will start playing.
 
+**_SSR was applied in this section._**
+
 ### Video section
 When a video is clicked, the user is redirected to the video section and the video will play automatically. 
 
