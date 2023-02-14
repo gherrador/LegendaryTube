@@ -12,7 +12,6 @@
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@mantine/form": "^5.9.5",
     "busboy": "^1.6.0",
-    "cloudinary": "^1.33.0",
     "connect-mongo": "^4.6.0",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",

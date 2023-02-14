@@ -24,17 +24,17 @@ We can find 5 sections throughout the project
 The comments section define the Logic used to save and show the comment made in a video.
 
 
-+ Subscriptions
++ Subscriptions:
 Each video has the posibility to subscribe us to the video. This section mannage this posibility as well as views and more.
 
-+ Users
++ Users:
 Although it is not necessary to be registered on the page to see the videos, if you want upload a video, give a like or subscribe to a video you will need a user. 
 The users sections is in charge to carry on the logic about the users.
 
-+ Videos
++ Videos:
 All activity related with the videos (view, upload, update characteristics about it and more) is inside of this section.
 
-+ Storage
++ Storage:
 Here videos, thumbnailds and previews are saved. 
 
 ## Server Structure
@@ -371,26 +371,30 @@ All the videos to which you subscribe can be found in this section.
   }
 
 
-* Client Side:
-  - "@reduxjs/toolkit": "^1.9.1",
-  - "@testing-library/jest-dom": "5.16.4",
-  - "@testing-library/react": "13.1.1",
-  - "@testing-library/user-event": "13.5.0",
-  - "axios": "1.2.0",
-  - "bootstrap": "5.1.3",
-  - "eslint-config-react-app": "^7.0.1",
-  - "react": "18.2",
-  - "react-bootstrap": "2.3.1",
-  - "react-dom": "18.2",
-  - "react-hook-form": "7.31.3",
-  - "react-redux": "^8.0.5",
-  - "react-responsive": "^9.0.2",
-  - "react-router-dom": "6.3.0",
-  - "react-scripts": "5.0.1",
-  - "react-select": "5.7.0",
-  - "sweetalert2": "11.4.10",
-  - "sweetalert2-react-content": "5.0.0",
-  - "web-vitals": "2.1.4"
+* Client Side: 
+  - "@emotion/react": "^11.10.5",
+  - "@emotion/server": "^11.10.0",
+  - "@mantine/core": "^5.10.0",
+  - "@mantine/dropzone": "^5.10.0",
+  - "@mantine/form": "^5.10.0",
+  - "@mantine/hooks": "^5.10.0",
+  - "@mantine/next": "^5.10.0",
+  - "@mantine/notifications": "^5.10.0",
+  - "@next/font": "13.1.1",
+  - "@types/node": "18.11.18",
+  - "@types/react": "18.0.26",
+  - "@types/react-dom": "18.0.10",
+  - "axios": "^1.2.2",
+  - "eslint": "8.31.0",
+  - "eslint-config-next": "13.1.1",
+  - "moment": "^2.29.4",
+  - "next": "13.1.1",
+  - "react": "18.2.0",
+  - "react-dom": "18.2.0",
+  - "react-moment": "^1.1.2",
+  - "react-query": "^3.39.2",
+  - "tabler-icons-react": "^1.56.0",
+  - "typescript": "4.9.4"
  
 
 
